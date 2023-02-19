@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    background-color: rgb(142, 193, 202);
+    border-radius: 30px;
+    box-shadow: 12px 12px 27px;
+    width: auto;
+    height: 37.5rem;
+}
+
+img {
+    width: 120%;
+    height: 37.5rem;
+    border-bottom-left-radius: 309px;
+    border-top-right-radius: 408px;
+}
+
+.login h1 {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.inp {
+    height: 50px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    box-shadow: 16px 9px 10px 9px rgba(0, 0, 0, 0.35);
+}
+
+.btn1 {
+    width: 180px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    font-weight: 600;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(238, 219, 132, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+.btn1:hover {
+    background: whitesmoke;
+}
+
+.fa-facebook {
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.fa-facebook:hover {
+    color: blue;
+}
+
+.fa-instagram {
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.fa-instagram:hover {
+    color: rgb(235, 107, 192);
+}
+
+.fa-linkedin {
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.fa-linkedin:hover {
+    color: rgb(68, 111, 192);
+}
